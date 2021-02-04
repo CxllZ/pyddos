@@ -24,6 +24,7 @@ print "Author   : CxllZ"
 print "Socials  : https://bit.ly/2Er2Sni"
 print
 ip = raw_input("IP Target : ")
+Nmap ip 
 port = input("Port       : ")
 
 os.system("clear")
