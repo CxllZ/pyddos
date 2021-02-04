@@ -1,7 +1,6 @@
 Make sure to have nmap install on ur device:
 
-Mac: is already installed
-
-Windows: might have to install from https://nmap.org/npcap/
-
-Linux: apt-get install nmap 
+Run, sudo apt-get install nmap for Linux.
+For Windows and Mac OS X,
+download and install Nmap:
+https://nmap.org/download.html
