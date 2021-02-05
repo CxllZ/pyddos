@@ -25,7 +25,7 @@ print "Socials  : https://bit.ly/2Er2Sni"
 print
 ip = raw_input("IP Target : ")
 
-nmap ip 
+nmap (ip) 
 
 port = input("Port       : ")
 
