@@ -1,4 +1,4 @@
-Make sure to have python3 and pip/pip3 installed on your device:
+Make sure to have python3 and pip3 installed on your device:
 
 https://www.tecmint.com/install-pip-in-linux/
 
@@ -11,8 +11,6 @@ download and install Nmap:
 https://nmap.org/download.html
 
 then before running python script run,
-pip install -r requirements.txt
-or
 pip3 install -r requirements.txt
 
 then do python3 dos.py
