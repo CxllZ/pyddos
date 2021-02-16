@@ -4,6 +4,11 @@ import nmap
 import time
 import socket
 import random
+import pyfiglet
+
+ascii_banner = pyfiglet.figlet_format("ViewBot")
+print(ascii_banner)
+print("					By CxllZ")
 
 #Code Time
 from datetime import datetime
@@ -21,7 +26,9 @@ bytes = random._urandom(1490)
 
 os.system("clear")
 os.system("cls")
-os.system("figlet DDos Attack")
+ascii_banner = pyfiglet.figlet_format("PythonDOS")
+print(ascii_banner)
+print("					By CxllZ")
 print
 print ("Author   : CxllZ")
 print ("Socials  : https://bit.ly/2Er2Sni")
@@ -52,7 +59,8 @@ port = input ("Port : ")
 
 os.system("cls")
 os.system("clear")
-os.system("figlet Attack Starting")
+ascii_banner = pyfiglet.figlet_format("AttackStarting!")
+print(ascii_banner)
 print ("[                    ] 0% ")
 time.sleep(1)
 print ("[=====               ] 25%")
