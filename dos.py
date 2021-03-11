@@ -1,10 +1,17 @@
-import sys
+#/usr/bin/python3
 import os
-import nmap
+import platform
 import time
+import sys
 import socket
 import random
-import pyfiglet
+
+try:
+    import nmap
+    import pyfiglet
+except ModuleNotFoundError:
+    print("modules are not installed")
+    os.system("pip3 install python-nmap==0.6.1 pyfiglet")
 
 #Code Time
 from datetime import datetime
@@ -20,9 +27,12 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 #############
 
-os.system("clear")
-os.system("cls")
-ascii_banner = pyfiglet.figlet_format("PythonDOS")
+if platform.system() == 'Windows':
+    os.system("cls")
+else:
+    os.system("clear")
+
+ascii_banner = pyfiglet.figlet_format("Python DOS")
 print(ascii_banner)
 print("					By CxllZ")
 print
